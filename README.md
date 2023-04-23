@@ -1,2 +1,163 @@
 # 2227
 博学谷 Docker核心技术原理以及应用 | 完结
+### 微:NoBug1024 
+
+
+课程介绍：
+
+本课程通过对Docker核心技术的讲解以及利用Docker搭建单主机ELK系统实战项目的演示，使你掌握Docker的各个核心组件、功能及其原理，掌握Docker的特性，并可以熟悉应用Docker。
+
+
+〖课程目录〗:
+
+- ├──01Docker概览  
+- |   ├──1.整体课程内容介绍.flv  31.10M
+- |   ├──2.Docker概览阶段课程简介.flv  8.07M
+- |   ├──3.了解Docker.flv  90.36M
+- |   ├──4.Docker整体结构了解.flv  12.00M
+- |   ├──5.Docker底层技术了解.flv  76.66M
+- |   └──6.Docker概览阶段课程总结.flv  13.64M
+- ├──02Docker版本与安装介绍  
+- |   ├──1.Docker安装与版本了解.flv  5.55M
+- |   ├──2.CentOS上安装Docker.flv  20.22M
+- |   ├──3.Ubuntu上安装Docker.flv  12.59M
+- |   ├──4.Windows、MacOS安装Docker.flv  3.61M
+- |   ├──5.加速器配置方法.flv  20.61M
+- |   └──6.Docker版本与安装阶段课程总结.flv  37.10M
+- ├──03Docker核心技术之镜像  
+- |   ├──1.Docker镜像阶段课程介绍与镜像简介.flv  8.52M
+- |   ├──10.Docker镜像管理之镜像详细信息查看.flv  60.68M
+- |   ├──11.Docker镜像管理之镜像历史信息查看.flv  13.46M
+- |   ├──12.Docker镜像阶段课程总结.flv  2.94M
+- |   ├──2.镜像管理之镜像搜索以及镜像信息.flv  79.39M
+- |   ├──3.Docker镜像管理之镜像查看与下载（一）.flv  26.10M
+- |   ├──4.Docker镜像管理之镜像查看与下载（二）.flv  17.39M
+- |   ├──5.Docker镜像管理之镜像查看与下载（三）.flv  10.58M
+- |   ├──6.Docker镜像管理之镜像删除.flv  29.38M
+- |   ├──7.Docker镜像管理之镜像保存与备份.flv  5.86M
+- |   ├──8.Docker镜像管理之镜像还原导入.flv  10.84M
+- |   └──9.Docker镜像管理之镜像重命名.flv  6.33M
+- ├──04Docker核心技术之容器  
+- |   ├──1.Docker容器阶段课程简介.flv  12.89M
+- |   ├──10.Docker生命周期管理之容器启动docker start.flv  65.49M
+- |   ├──11.Docker生命周期管理之容器创建并启动docker run.flv  97.23M
+- |   ├──12.Docker生命周期管理之容器关闭docker stop.flv  53.60M
+- |   ├──13.Docker生命周期管理之容器终止docker kill.flv  86.28M
+- |   ├──14.Docker生命周期管理之容器暂停.flv  27.76M
+- |   ├──15.Docker生命周期管理之容器重启docker restart.flv  9.31M
+- |   ├──16.Docker容器详细信息查看.flv  39.95M
+- |   ├──17.Docker容器日志查看.flv  66.10M
+- |   ├──18.Docker容器重命名.flv  17.25M
+- |   ├──19.Docker容器连接 docker attach.flv  76.99M
+- |   ├──2.了解Docker容器.flv  5.69M
+- |   ├──20.Docker容器运行时执行新命令 docker exec.flv  67.45M
+- |   ├──21.attach和exec对比.flv  40.73M
+- |   ├──22.Docker容器阶段课程总结.flv  33.35M
+- |   ├──3.容器与虚拟机对比（一）.flv  55.27M
+- |   ├──4.容器与虚拟机对比（二）.flv  55.15M
+- |   ├──5.了解虚拟机的生命周期.flv  71.43M
+- |   ├──6.了解容器的生命周期.flv  57.84M
+- |   ├──7.Docker生命周期管理之容器创建docker create（一）.flv  52.09M
+- |   ├──8.Docker生命周期管理之容器创建docker create（二）.flv  61.44M
+- |   └──9.Docker生命周期管理之容器删除docker rm.flv  42.87M
+- ├──05Docker核心技术之容器与镜像  
+- |   ├──1.Docker容器与镜像的关系.flv  17.80M
+- |   ├──2.Docker容器提交-docerk commit.flv  11.93M
+- |   ├──3.Docker容器的导出-docker export.flv  26.46M
+- |   ├──4.Docker初始镜像构建-docker import.flv  18.48M
+- |   ├──5.commit和import对比.flv  96.84M
+- |   ├──6.联合文件系统与Docker镜像.flv  134.35M
+- |   ├──7.联合文件系统与容器.flv  8.29M
+- |   └──8.容器与镜像阶段总结.flv  35.47M
+- ├──06Docker核心技术之网络管理  
+- |   ├──1.Docker网络管理阶段课程简介.flv  8.57M
+- |   ├──10.Docker网络模式之bridge网络原理.flv  123.01M
+- |   ├──11.Docker网络模式之定制bridge网络.flv  80.07M
+- |   ├──12.Docker网络模式之bridge网络的端口映射.flv  147.76M
+- |   ├──13.Docker网络模式之host网络模式原理.flv  82.92M
+- |   ├──14.Docker网络模式之Container网络模式原理.flv  69.32M
+- |   ├──15.Docker网络模式之none网络介绍.flv  3.82M
+- |   ├──16.Docker网络模式之overlay网络简介.flv  46.71M
+- |   ├──17.Docker网络模式之TCP、IP协议栈工作流程了解.flv  34.92M
+- |   ├──18.Docker网络模式之overlay网络模式实现原理.flv  67.01M
+- |   ├──19.Docker网络模式之overlay网络的应用场景.flv  77.20M
+- |   ├──2.了解Docker的网络管理.flv  111.92M
+- |   ├──20.Docker网络模式之macvlan网络模式原理.flv  75.76M
+- |   ├──21.Docker网络管理阶段总结.flv  23.42M
+- |   ├──3.Docker网络管理之网络查看.flv  36.33M
+- |   ├──4.Docker网络管理之网络创建.flv  131.85M
+- |   ├──5.Docker网络管理之网络删除.flv  18.23M
+- |   ├──6.Docker网络管理之网络详细信息查看.flv  5.38M
+- |   ├──7.Docker网络管理之网络使用.flv  4.99M
+- |   ├──8.Docker网络管理之网络连接与断开.flv  7.86M
+- |   └──9.Docker网络模式之网络模式简介.flv  6.80M
+- ├──07Docker核心技术之数据卷  
+- |   ├──1.Docker数据管理之课程简介.flv  7.83M
+- |   ├──10.Docker数据卷管理之volume方式数据卷的注意事项（二）.flv  26.03M
+- |   ├──11.Docker数据卷管理之volume方式数据卷的注意事项（三）.flv  53.55M
+- |   ├──12.Docker数据管理阶段总结.flv  16.73M
+- |   ├──2.Docker数据管理之数据卷简介（一）.flv  26.33M
+- |   ├──3.Docker数据管理之数据卷简介（二）.flv  33.86M
+- |   ├──4.Docker数据卷管理之数据卷挂载方式介绍.flv  35.31M
+- |   ├──5.Docker数据卷管理之bind方式挂载数据卷.flv  12.04M
+- |   ├──6.Docker数据卷管理之volume方式挂载数据卷.flv  97.46M
+- |   ├──7.Docker数据卷管理之tmpfs方式挂载数据卷.flv  33.44M
+- |   ├──8.Docker数据卷管理之数据卷容器.flv  23.78M
+- |   └──9.Docker数据卷管理之volume方式数据卷的注意事项（一）.flv  8.02M
+- ├──08Docker核心技术之仓库  
+- |   ├──1.Docker私有仓库了解.flv  24.46M
+- |   ├──2.了解Docker私有仓库搭建.flv  30.55M
+- |   ├──3.无认证的私有仓库搭建.flv  124.62M
+- |   ├──4.向私有仓库上传镜像.flv  74.83M
+- |   ├──5.向私有仓库下载镜像.flv  16.51M
+- |   ├──6.具备认证的私有仓库搭建.flv  82.48M
+- |   ├──7.使用具备认证功能的私有仓库.flv  32.50M
+- |   └──8.Docker仓库阶段总结.flv  4.48M
+- ├──09Docker核心技术之Dockerfile  
+- |   ├──1.Dockerfile课程介绍.flv  31.81M
+- |   ├──10.Dockerfile配置之shell格式命令与exec格式命令区别.flv  56.15M
+- |   ├──11.Dockerfile配置之CMD与ENTRYPOINT.flv  110.61M
+- |   ├──12.Dockerfile配置之LABEL与MAINTAINER.flv  41.86M
+- |   ├──13.Dockerfile配置之EXPOSE.flv  35.65M
+- |   ├──14.Dockerfile配置之ENV与ARG.flv  60.33M
+- |   ├──15.Dockerfile配置之ADD与COPY.flv  47.43M
+- |   ├──16.Dockerfile配置之VOLUME.flv  23.46M
+- |   ├──17.Dockerfile配置之USER和WORKDIR.flv  22.38M
+- |   ├──18.Dockerfile配置之其他配置.flv  50.22M
+- |   ├──19.Dockerfile阶段总结.flv  42.02M
+- |   ├──2.了解Dockerfile.flv  18.03M
+- |   ├──3.Dockerfile的撰写示范.flv  8.38M
+- |   ├──4.利用Dockerfile构建镜像.flv  159.68M
+- |   ├──5.Dockerfile构建过程的特征.flv  80.05M
+- |   ├──6.Docekrfile构建的镜像的特征.flv  184.58M
+- |   ├──7.Dockerfile的命令与镜像层级的关系介绍.flv  25.82M
+- |   ├──8.Dockerfile配置说明.flv  41.57M
+- |   └──9.Dockerfile配置之RUN.flv  19.45M
+- └──10Docker核心技术之Docker-Compose  
+- |   ├──1.Docker Compose课程介绍.flv  42.48M
+- |   ├──10.部署小型wen项目之数据卷挂载.flv  131.12M
+- |   ├──11.单机ELK部署之ELK介绍.flv  93.87M
+- |   ├──12.单机ELK部署之compose file撰写思路.flv  66.46M
+- |   ├──13.单机ELK部署之elasticsearch的compose file撰写.flv  125.00M
+- |   ├──14.单机ELK部署之启动elasticsearch.flv  232.69M
+- |   ├──15.单机ELK部署之加入Logstash.flv  34.53M
+- |   ├──16.单机ELK部署之加入kibana实现完成部署（一）.flv  117.06M
+- |   ├──17.单机ELK部署之加入kibana实现完成部署（二）.flv  65.19M
+- |   ├──18.单机ELK部署之总结.flv  43.52M
+- |   ├──19.多主机ELK部署之swarm介绍.flv  12.82M
+- |   ├──2.Docker Compose工作原理介绍.flv  59.39M
+- |   ├──20.多主机ELK部署之跨主机下的compose file工作原理.flv  70.89M
+- |   ├──21.多主机ELK部署之步骤分析.flv  12.21M
+- |   ├──22.多主机ELK部署之compose file中deploy参数概览.flv  117.26M
+- |   ├──23.多主机ELK部署之改写compose file.flv  82.54M
+- |   ├──24.多主机ELK部署之启动与调试bug（一）.flv  74.52M
+- |   ├──25.多主机ELK部署之启动与调试bug（二）.flv  157.53M
+- |   ├──26.多主机ELK部署之总结.flv  114.53M
+- |   ├──27.Docker Compose阶段课程总结.flv  3.40M
+- |   ├──3.Docker Compose安装.flv  73.86M
+- |   ├──4.了解Docker Compose File.flv  21.13M
+- |   ├──5.Docker Compose File配置概览.flv  148.48M
+- |   ├──6.部署小型web项目之项目代码实现.flv  39.16M
+- |   ├──7.部署小型web项目之Dockerfile实现.flv  97.88M
+- |   ├──8.部署小型web项目之docker-compose文件撰写.flv  41.19M
+- |   └──9.部署小型web项目之docker-compose启动.flv  124.10M
